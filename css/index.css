@@ -1,6 +1,35 @@
 .navbar-brand {
     margin-left: 20%;
 }
+@media only screen and (max-width: 765px) {
+    .titulo-contato{
+        text-align: center !important;
+    }
+    .contato{
+        align-items: center;
+        padding-left: 39% !important;
+    }
+    .container{
+        padding-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        margin-left: 0px;
+        width: 10px;
+    }
+    .titulo-contato{
+        text-align: center !important;
+    }
+    .contato{
+        align-items: center;
+        padding-left: 32% !important;
+    }
+    .colllapse{
+        margin-left: 10% !important;
+    }
+}
 
 #intro {
     background-image: url("../assets/rua-mexico1.jpg");
