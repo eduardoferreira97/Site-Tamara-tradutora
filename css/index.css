@@ -1,0 +1,187 @@
+.navbar-brand {
+    margin-left: 28%;
+}
+
+#intro {
+    background-image: url("../assets/rua-mexico1.jpg");
+    height: 100vh;
+}
+
+.colllapse {
+    margin-left: 30%;
+}
+
+.contato{
+    margin-left: 20%;
+}
+
+/* HOME */
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.herod {
+    /* background-color:#ffffff; */
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rectangle {
+    /* background-color:#ffffff; */
+    height: 960px;
+    width: 100%;
+    padding: 0px;
+    border-style: hidden;
+    outline: none;
+}
+
+.rectangle2 {
+    background-color: #e5e5e5;
+    height: 960px;
+    width: 1680px;
+    width: 1680px;
+    height: 960px;
+}
+
+.thelargestcommunityofphotoenthusiasts {
+    /* background-color:#ffffff; */
+    height: 160px;
+    width: 686px;
+    align-self: flex-start;
+    left: 144px;
+    top: 354px;
+    position: absolute;
+    padding: 0px;
+    border-style: hidden;
+    outline: none;
+}
+
+.thelargestcommunityofphotoenthusiasts2 {
+    color: #000000;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 56px;
+    font-family: Montserrat;
+    letter-spacing: -1.5px;
+    line-height: 80px;
+    border-style: hidden;
+    outline: none;
+    width: 686px;
+}
+
+.button {
+    height: 52px;
+    width: 192px;
+    align-self: flex-start;
+    left: 145px;
+    top: 554px;
+    position: absolute;
+    padding: 0px;
+    border-style: hidden;
+    outline: none;
+}
+
+.rectangle22 {
+    background-color: #18a0fb;
+    height: 52px;
+    width: 192px;
+    border-radius: 6px;
+}
+
+.jointoday {
+    color: #ffffff;
+    text-align: center;
+    vertical-align: text-middle;
+    font-size: 17px;
+    font-family: Montserrat;
+    left: 61.21px;
+    top: 15.3px;
+    width: 68px;
+    height: 21px;
+    position: absolute;
+    letter-spacing: -1.5px;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+}
+
+/* CONTATO */
+
+.signupc {
+    background-color: #f5f5f5;
+    height: 340px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loremipsumdolorsitamet,
+consecteturadipiscingelit,
+seddoeiusmodtemporincididuntutlabore {
+    color: rgba(0, 0, 0, 0.800000011920929);
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 36px;
+    font-family: Montserrat;
+    align-self: flex-start;
+    left: 80px;
+    top: 120px;
+    position: absolute;
+    letter-spacing: -1.5px;
+    line-height: 50px;
+    border-style: hidden;
+    outline: none;
+    width: 943px;
+    display: flex;
+}
+
+.button2 {
+    height: 52px;
+    width: 192px;
+    align-self: flex-start;
+    left: 1344px;
+    top: 144px;
+    position: absolute;
+    padding: 0px;
+    border-style: hidden;
+    outline: none;
+}
+
+.rectangle2 {
+    background-color: #ffffff;
+    height: 52px;
+    width: 192px;
+    border-radius: 6px;
+    border: 1px solid #18a0fb;
+}
+
+.contactus {
+    color: #18a0fb;
+    text-align: center;
+    vertical-align: text-middle;
+    font-size: 17px;
+    font-family: Montserrat;
+    left: 50.21px;
+    top: 15.3px;
+    width: 91px;
+    height: 21px;
+    position: absolute;
+    letter-spacing: -1.5px;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+}
