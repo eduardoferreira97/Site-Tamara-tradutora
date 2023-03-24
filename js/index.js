@@ -28,3 +28,15 @@ const openModal = function () {
 };
 // open modal event
 openModalBtn.addEventListener("click", openModal);
+
+const element = document.getElementById("animationDemo");
+const animate = new mdb.Animate(element, {
+  animation: "slide-right",
+  animationStart: "onScroll",
+  animationDelay: "0",
+  animationDuration: "500",
+  animationReverse: "false",
+  animationRepeat: "false",
+  animationInterval: "100",
+});
+animate.init();
