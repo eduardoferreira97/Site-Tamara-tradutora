@@ -49,7 +49,7 @@
 }
 
 .fixed-bottom, .fixed-top {
-    position: relative;
+    position: relative !important;
 }
 
 /* HOME */
