@@ -48,8 +48,12 @@
     padding-left: 30%;
 }
 
-.fixed-bottom, .fixed-top {
-    position: relative !important;
+/* Resolve problema de espaço em branco do lado direto da tela */
+main, section{
+    overflow-x: hidden;
+}
+.fixed-top {
+    position: sticky !important;
 }
 
 /* HOME */
@@ -219,10 +223,10 @@ seddoeiusmodtemporincididuntutlabore {
 /* ------------------------- */
 /* Serviços */
 :root {
-    --red: hsl(0, 0%, 98%);
+    /* --red: hsl(0, 0%, 98%);
     --cyan: hsl(0, 0%, 98%);
-    --orange: hsl(0, 0%, 98%);
-    --blue: hsl(0, 0%, 98%);
+    --orange: hsl(0, 0%, 98%); */
+    /* --blue: hsl(0, 0%, 98%); */
     /* --varyDarkBlue: hsl(234, 12%, 34%); */
     --grayishBlue: hsl(229, 6%, 66%);
     --veryLightGray: hsl(0, 0%, 98%);
