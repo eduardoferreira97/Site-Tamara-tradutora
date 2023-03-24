@@ -50,7 +50,7 @@
 
 /* Resolve problema de espaço em branco do lado direto da tela */
 main, section{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .fixed-top {
     position: sticky !important;
