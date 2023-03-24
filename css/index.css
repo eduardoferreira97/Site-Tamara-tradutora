@@ -48,6 +48,10 @@
     padding-left: 30%;
 }
 
+.fixed-bottom, .fixed-top {
+    position: relative;
+}
+
 /* HOME */
 
 .herod {
