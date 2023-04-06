@@ -35,6 +35,15 @@
     }
 }
 
+
+
+body{
+    background-color: #f6EEE8;
+}
+.card-body{
+    text-align: center;
+}
+
 #intro {
     background-image: url("../assets/rua-mexico1.jpg");
     height: 100vh;
@@ -152,7 +161,7 @@ main, section{
 /* CONTATO */
 
 .signupc {
-    background-color: #f5f5f5;
+    background-color: #F6F6F6;
     height: 340px;
     width: 100%;
     padding: 0px;
@@ -223,14 +232,9 @@ seddoeiusmodtemporincididuntutlabore {
 /* ------------------------- */
 /* Serviços */
 :root {
-    /* --red: hsl(0, 0%, 98%);
-    --cyan: hsl(0, 0%, 98%);
-    --orange: hsl(0, 0%, 98%); */
-    /* --blue: hsl(0, 0%, 98%); */
-    /* --varyDarkBlue: hsl(234, 12%, 34%); */
+
     --grayishBlue: hsl(229, 6%, 66%);
     --veryLightGray: hsl(0, 0%, 98%);
-    /* --weight1: 200; */
     --weight2: 400;
     --weight3: 600;
 }
