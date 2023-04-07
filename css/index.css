@@ -8,6 +8,8 @@
 
 body{
     background-color: #f6EEE8;
+    overflow-x:hidden;
+    display:block;
 }
 .card-body{
     text-align: center;
@@ -28,12 +30,12 @@ body{
 
 /* Resolve problema de espaço em branco do lado direto da tela */
 main{
-    
+
     overflow-x: hidden !important; /*Essa em específico*/
 
     /* Aqui remove probema com scroll em div que fica ao solucionar o de cima */
     display:block;
-    overflow:hidden
+    overflow:hidden;
 }
 .fixed-top {
     position: sticky !important;
@@ -325,6 +327,7 @@ img {
 
 
 @media (min-width: 950px) {
+    
     .row1-container {
         display: flex;
         justify-content: center;
