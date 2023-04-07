@@ -1,45 +1,6 @@
 .navbar-brand {
     margin-left: 20%;
 }
-@media only screen and (max-width: 765px) {
-    body{
-        background-color: #f6EEE8 !important;
-    }
-    footer{
-        background-color: #f6EEE8 !important;
-    }
-    .navbar-brand{
-        margin-left: 0px;
-        width: 10px;
-    }
-    .titulo-contato{
-        text-align: center !important;
-    }
-    .contato{
-        align-items: center;
-        padding-left: 39% !important;
-    }
-    .container{
-        padding-left: 4%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .navbar-brand{
-        margin-left: 0px;
-        width: 10px;
-    }
-    .titulo-contato{
-        text-align: center !important;
-    }
-    .contato{
-        align-items: center;
-        padding-left: 32% !important;
-    }
-    .colllapse{
-        margin-left: 10% !important;
-    }
-}
 
 .nav-link{
     color: #540F0D
@@ -66,8 +27,13 @@ body{
 }
 
 /* Resolve problema de espaço em branco do lado direto da tela */
-main, section{
-    overflow-x: hidden !important;
+main{
+    
+    overflow-x: hidden !important; /*Essa em específico*/
+
+    /* Aqui remove probema com scroll em div que fica ao solucionar o de cima */
+    display:block;
+    overflow:hidden
 }
 .fixed-top {
     position: sticky !important;
@@ -76,7 +42,6 @@ main, section{
 /* HOME */
 
 .herod {
-    /* background-color:#ffffff; */
     width: 100%;
     padding: 0px;
     display: flex;
@@ -88,7 +53,6 @@ main, section{
 }
 
 .rectangle {
-    /* background-color:#ffffff; */
     height: 960px;
     width: 100%;
     padding: 0px;
@@ -105,7 +69,6 @@ main, section{
 }
 
 .thelargestcommunityofphotoenthusiasts {
-    /* background-color:#ffffff; */
     height: 160px;
     width: 686px;
     align-self: flex-start;
@@ -261,13 +224,6 @@ h1:first-of-type {
 
 }
 
-
-@media (max-width: 400px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-}
-
 .header {
     text-align: center;
     margin-bottom: 30px;
@@ -293,6 +249,52 @@ h1:first-of-type {
 
 img {
     float: right;
+}
+
+/* RESPONSIVO */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 765px) {
+    body{
+        background-color: #f6EEE8 !important;
+    }
+    footer{
+        background-color: #f6EEE8 !important;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+        width: 10px;
+    }
+    .titulo-contato{
+        text-align: center !important;
+    }
+    .contato{
+        align-items: center;
+        padding-left: 39% !important;
+    }
+    .container{
+        padding-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        margin-left: 0px;
+        width: 10px;
+    }
+    .titulo-contato{
+        text-align: center !important;
+    }
+    .contato{
+        align-items: center;
+        padding-left: 32% !important;
+    }
+    .colllapse{
+        margin-left: 10% !important;
+    }
 }
 
 @media (max-width: 450px) {
