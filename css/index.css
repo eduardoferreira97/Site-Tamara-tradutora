@@ -253,6 +253,12 @@ img {
     float: right;
 }
 
+/* CARDS */
+
+.row{
+    margin: 0px 1% 0px 1%;
+}
+
 /* RESPONSIVO */
 @media (max-width: 400px) {
     h1 {
