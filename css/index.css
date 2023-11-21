@@ -305,6 +305,11 @@ img {
     .colllapse{
         margin-left: 10% !important;
     }
+
+    .content{
+        margin: 0px;
+        width: 87%;
+    }
 }
 
 @media (max-width: 450px) {
